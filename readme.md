@@ -2,7 +2,7 @@ Python Libraries for Web Scraping
 
 Web scraping is the process of extracting structured and unstructured data from the web with the help of programs and exporting into a useful format. If you want to learn more about web scraping, here are a couple of resources to get you started:
 
-    Requests (HTTP for Humans) Library for Web Scraping
+1. Requests (HTTP for Humans) Library for Web Scraping
 
 Let’s start with the most basic Python library for web scraping. ‘Requests’ lets us make HTML requests to the website’s server for retrieving the data on its page. Getting the HTML content of a web page is the first and foremost step of web scraping.
 
@@ -16,19 +16,19 @@ Let’s take a look at the advantages and disadvantages of the Requests Python l
 
 Advantages:
 
-Simple
-Basic/Digest Authentication
-International Domains and URLs
-Chunked Requests
-HTTP(S) Proxy Support
+    Simple
+    Basic/Digest Authentication
+    International Domains and URLs
+    Chunked Requests
+    HTTP(S) Proxy Support
 
 Disadvantages:
 
-Retrieves only static content of a page
-Can’t be used for parsing HTML
-Can’t handle websites made purely with JavaScript
+    Retrieves only static content of a page
+    Can’t be used for parsing HTML
+    Can’t handle websites made purely with JavaScript
 
-    Beautiful Soup Library for Web Scraping
+2. Beautiful Soup Library for Web Scraping
 
 BeautifulSoup is perhaps the most widely used Python library for web scraping. It creates a parse tree for parsing HTML and XML documents. Beautiful Soup automatically converts incoming documents to Unicode and outgoing documents to UTF-8.
 
@@ -40,12 +40,12 @@ One major advantage of the Beautiful Soup library is that it works very well wit
 
 Advantages:
 
-Requires a few lines of code
-Great documentation
-Easy to learn for beginners
-Robust
-Automatic encoding detection
+    Requires a few lines of code
+    Great documentation
+    Easy to learn for beginners
+    Robust
+    Automatic encoding detection
 
 Disadvantages:
 
-Slower than lxml
+    Slower than lxml
